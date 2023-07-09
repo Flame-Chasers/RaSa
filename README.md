@@ -4,7 +4,7 @@
 This is the official PyTorch implementation of the paper [RaSa: Relation and Sensitivity Aware Representation Learning for Text-based Person Search (IJCAI 2023)](https://arxiv.org/abs/2305.13653). 
 This repository supports training and evaluation on three text-based person search benchmarks: CUHK-PEDES, ICFG-PEDES and RSTPReid.
 
-![](images\architecture.jpg)
+![](images/architecture.jpg)
 
 ## Usage
 ### Requirements
@@ -171,36 +171,36 @@ Retrieval.py \
 |      LGUR       |   65.25   |   83.12   |   89.00   |     -     |
 |       IVT       |   65.59   |   83.11   |   89.21   |     -     |
 |      CFine      |   69.57   |   85.93   |   91.15   |     -     | 
-|   **ALBEF**     |   60.28   |   79.52   |   86.34   |   56.67   |
-| **RASA (ours)** | **76.51** | **90.29** | **94.25** | **69.38** |
+|    **ALBEF**    |   60.28   |   79.52   |   86.34   |   56.67   |
+| **RaSa (ours)** | **76.51** | **90.29** | **94.25** | **69.38** |
 
 [Model for CUHK-PEDES](https://drive.google.com/file/d/1BC1L-5JuIXHt6NR_l2ENHG3NZhncU91s/view?usp=sharing)
 
 ### ICFG-PEDES dataset
 
 |     Method      |  Rank-1   |  Rank-5   |  Rank-10  |    mAP    |
-| :-------------: | :-------: | :-------: | :-------: | :-------: |
+|:---------------:| :-------: | :-------: | :-------: | :-------: |
 |     CMPM/C      |   43.51   |   65.44   |   74.26   |     -     |
 |      SSAN       |   54.23   |   72.63   |   79.53   |     -     |
 |       SAF       |   54.86   |   72.13   |   79.13   |   32.76   |
 |       IVT       |   56.04   |   73.60   |   80.22   |     -     |
 |      CFine      |   60.83   |   76.55   |   82.42   |     -     |
-|   **ALBEF**     |   34.46   |   52.32   |   60.40   |   19.62   |
-| **RASA (ours)** | **65.28** | **80.40** | **85.12** | **41.29** |
+|    **ALBEF**    |   34.46   |   52.32   |   60.40   |   19.62   |
+| **RaSa (ours)** | **65.28** | **80.40** | **85.12** | **41.29** |
 
 [Model for ICFG-PEDES](https://drive.google.com/file/d/1lLB332ANq87v2jV2bLdsV7rQ7OBAnP9X/view?usp=sharing)
 
 ### RSTPReid dataset
 
 |     Method      |  Rank-1   |  Rank-5   |  Rank-10  |    mAP    |
-| :-------------: | :-------: | :-------: | :-------: | :-------: |
+|:---------------:| :-------: | :-------: | :-------: | :-------: |
 |      DSSL       |   32.43   |   55.08   |   63.19   |     -     |
 |      SSAN       |   43.50   |   67.80   |   77.15   |     -     |
 |       SAF       |   44.05   |   67.30   |   76.25   |   36.81   |
 |       IVT       |   46.70   |   70.00   |   78.80   |     -     |
 |      CFine      |   50.55   |   72.50   |   81.60   |     -     |
-|   **ALBEF**     |   50.10   |   73.70   |   82.10   |   41.73   |
-| **RASA (ours)** | **66.90** | **86.50** | **91.35** | **52.31** |
+|    **ALBEF**    |   50.10   |   73.70   |   82.10   |   41.73   |
+| **RaSa (ours)** | **66.90** | **86.50** | **91.35** | **52.31** |
 
 [Model for RSTPReid](https://drive.google.com/file/d/1e5KPmfoij22J2zZOZxhSodU4SNz76BjX/view?usp=sharing)
 
